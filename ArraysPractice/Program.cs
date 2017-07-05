@@ -31,22 +31,44 @@ namespace ArraysPractice
             //Array of the first letter of four of your classmate's names who are sitting near you
             //Print all four on the same line
 
-            string[] vacationSpots = { "Paris", "Scottish Highlands", "Laguna Beach", "Iceland", "Sidney", "Seattle", "Cancun", "Hawaii", "Sandusky", "Vegas" };
-            Console.WriteLine(vacationSpots[0]);
-            Console.WriteLine(vacationSpots[9]);
+            //string[] vacationSpots = { "Paris", "Scottish Highlands", "Laguna Beach", "Iceland", "Sidney", "Seattle", "Cancun", "Hawaii", "Sandusky", "Vegas" };
+            //Console.WriteLine(vacationSpots[0]);
+            //Console.WriteLine(vacationSpots[9]);
 
-            int[] childAges = { 2,4,1 };
-            Console.WriteLine("Callum is " + childAges[0]);
-            Console.WriteLine("Noah is " + childAges[1]);
-            Console.WriteLine("Nolan is " + childAges[2]);
+            //int[] childAges = { 2,4,1 };
+            //Console.WriteLine("Callum is " + childAges[0]);
+            //Console.WriteLine("Noah is " + childAges[1]);
+            //Console.WriteLine("Nolan is " + childAges[2]);
 
-            double[] gradePointAverage = { 4.0, 3.5, 3.0, 2.5, 2.0, 1.5, 1.0, 0.5 };
+            //double[] gradePointAverage = { 4.0, 3.5, 3.0, 2.5, 2.0, 1.5, 1.0, 0.5 };
 
-            char[] peopleNames = { 'P', 'V', 'V', 'J' };
-            Console.WriteLine(peopleNames);
+            //char[] peopleNames = { 'P', 'V', 'V', 'J' };
+            //Console.WriteLine(peopleNames);
 
-            Console.WriteLine("{0}, {1}, {2}, {3}", peopleNames[0], peopleNames[1], peopleNames[2], peopleNames[3]);
-            //This method could pull values from different arrays into one line
+            //Console.WriteLine("{0}, {1}, {2}, {3}", peopleNames[0], peopleNames[1], peopleNames[2], peopleNames[3]);
+            ////This method could pull values from different arrays into one line
+
+            //int[] numberOfSeats = new int[21];//Creates a dresser with 21 drawers
+            //string[] studentsInClass = new string[21];
+
+            ////nameOfArray[index] = Element;
+            //studentsInClass[0] = "Jordan";
+
+            //Console.WriteLine("Please enter in the name of the next student: ");
+            //studentsInClass[1] = Console.ReadLine();
+            //Console.WriteLine("The student in the second seat is {0}.", studentsInClass[1]);
+
+            ////Ask user for input
+            //Console.WriteLine("Please enter the age of the person in the first seat: ");
+            ////Create a new int array with 21 spots and call it ageOfStudents
+            //int[] ageOfStudents = new int[21];
+            ////Assign the value of the int at the 0 index of ageOfStudents to..
+            ////..the user's input converted into an int
+            //ageOfStudents[0] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("The age of the student in the first seat is " + ageOfStudents[0]);
+            ////Create a new string variable and set it equal to the int at the index of 0..
+            ////..and convert it into a string
+            //string firstIndex = ageOfStudents[0].ToString();
 
 
         }
