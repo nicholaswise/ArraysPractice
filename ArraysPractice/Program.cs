@@ -71,6 +71,29 @@ namespace ArraysPractice
             //string firstIndex = ageOfStudents[0].ToString();
 
 
+
+            //char[] middleName = { 'C', 'h', 'a', 'r', 'l', 'e', 's' };
+            //Console.WriteLine(middleName.Length);
+
+            ////Declare and initialize a string array
+            ////Using the length property, print the second to last element in the array
+
+            //string[] restaurantsInMall = { "Subway", "Saki", "Dunkin Donuts", "Red Lobster", "Chick Fil-A" };
+            //int numRest = restaurantsInMall.Length;
+            //Console.WriteLine(restaurantsInMall[numRest - 2]);
+
+            ////IndexOf is a method used to search an array for a specified value and returns the index position of the first matching value found.
+            //int[] bestYearsEver = { 1985, 1999, 1991, 2000, 1985 };
+            //Console.WriteLine(Array.IndexOf(bestYearsEver, 1985));
+            ////LastIndexOf is a method used to search an array for a specified value and returns the index position of the last matching value found.
+            //Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985));
+
+            //Reverse Method
+            int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            Console.WriteLine(palindromeNumbers[0]);
+            Array.Reverse(palindromeNumbers);
+            Console.WriteLine(palindromeNumbers[0]);
+
         }
     }
 }
