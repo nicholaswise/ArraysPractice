@@ -88,11 +88,41 @@ namespace ArraysPractice
             ////LastIndexOf is a method used to search an array for a specified value and returns the index position of the last matching value found.
             //Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985));
 
-            //Reverse Method
-            int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
-            Console.WriteLine(palindromeNumbers[0]);
-            Array.Reverse(palindromeNumbers);
-            Console.WriteLine(palindromeNumbers[0]);
+            ////Reverse Method
+            //int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            //Console.WriteLine(palindromeNumbers[0]);
+            //Array.Reverse(palindromeNumbers);
+            //Console.WriteLine(palindromeNumbers[0]);
+
+            ////Sort
+            ////Will sort numbers in an array from lowest to highest
+            ////will sort char's and strings in alphabetical order from a-z
+            //string[] powerRangers = { "green", "yellow", "pink", "blue", "red", "black" };
+            //Console.WriteLine(powerRangers[0]);
+            //Array.Sort(powerRangers);
+            //Console.WriteLine(powerRangers[0]);
+
+            string[] firstNames = { "John", "Paul", "Derek", "Frank", "Mitch", "Pierre" };
+            Console.WriteLine(Array.IndexOf(firstNames, "Frank"));
+            Console.WriteLine(Array.IndexOf(firstNames, "Pierre"));
+
+            int[] luckyNumbers = { 3, 3, 6, 6, 7, 7, 8, 8, 9, 9 };
+            Console.WriteLine(Array.LastIndexOf(luckyNumbers, 8));
+
+            char[] alphabetChars = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I' };
+            Console.WriteLine(alphabetChars[0]);
+            Array.Reverse(alphabetChars);
+            Console.WriteLine(alphabetChars[0]);
+
+            string[] studentNames = { "Vik", "Vivian", "Joe", "Pete", "Nick", "Hope", "Iris" };
+            Array.Sort(studentNames);
+            Console.WriteLine(studentNames[0]);
+            Console.WriteLine(studentNames[6]);
+
+            Console.WriteLine("Please enter your favorite number: ");
+            //Homework
+
+
 
         }
     }
